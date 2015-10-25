@@ -1,3 +1,6 @@
+---
+output: html_document
+---
 ```{r setup, cache = F, echo = F, message = F, warning = F, tidy = F}
 library(knitr)
 # make this an external chunk that can be included in any file
@@ -19,7 +22,7 @@ knit_hooks$set(plot = knitr:::hook_plot_html)
 ---
 title: "Weighting Lifting Exercise Analysis"
 author: "Nazirul Hazim"
-date: "Saturday, october 24, 2015"
+date: "Saturday, October 24, 2015"
 output:
   html_document:
     keep_md: yes
